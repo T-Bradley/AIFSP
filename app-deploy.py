@@ -50,11 +50,7 @@ def play_video(video_source):
 
     st.video(temp_file.name)
 
-st.set_page_config(
-    page_title = "AI Fire Safety Project", 
-    page_icon = ":fire:",
-    layout = "centered", 
-    initial_sidebar_state = "expanded")
+ 
 
 hide_github_icon = """
 #GithubIcon {
