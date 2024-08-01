@@ -66,7 +66,7 @@ st.markdown(
     }
     </style>
     """,
-    unsafe_allow_html=True
+    unsafe_allow_html=True)
 
 st.title("AI Smoke and Fire Detection :fire:")
 
