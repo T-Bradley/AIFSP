@@ -12,12 +12,7 @@ import utils
 import cv2
 
 
-hide_github_icon = """
-#GithubIcon {
-  visibility: hidden;
-}
-"""
-st.markdown(hide_github_icon, unsafe_allow_html=True)
+
 
 def play_video(video_source):
     camera = cv2.VideoCapture(video_source)
@@ -60,6 +55,13 @@ st.set_page_config(
     page_icon = ":fire:",
     layout = "centered", 
     initial_sidebar_state = "expanded")
+
+hide_github_icon = """
+#GithubIcon {
+  visibility: hidden;
+}
+"""
+st.markdown(hide_github_icon, unsafe_allow_html=True)
 
 st.title("AI Smoke and Fire Detection :fire:")
 
