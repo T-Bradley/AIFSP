@@ -12,6 +12,12 @@ import utils
 import cv2
 
 
+hide_github_icon = """
+#GithubIcon {
+  visibility: hidden;
+}
+"""
+st.markdown(hide_github_icon, unsafe_allow_html=True)
 
 def play_video(video_source):
     camera = cv2.VideoCapture(video_source)
@@ -113,12 +119,7 @@ if source_radio == "WEBCAM":
     st.image(visualized_image, channels = "BGR")
  
 
-hide_github_icon = """
-#GithubIcon {
-  visibility: hidden;
-}
-"""
-st.markdown(hide_github_icon, unsafe_allow_html=True)
+
 
 
 
