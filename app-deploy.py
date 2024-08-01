@@ -1,4 +1,4 @@
-
+import utils
 import streamlit as st
 import PIL
 import numpy
@@ -7,7 +7,7 @@ from PIL import Image
 import tempfile
 import moviepy.editor as mpy
 from camera_input_live import camera_input_live
-import utils
+
 import cv2
 
 
