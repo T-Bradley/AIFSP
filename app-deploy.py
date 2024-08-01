@@ -5,10 +5,10 @@ import numpy
 import io
 from PIL import Image
 import tempfile
-import utils
+
 import moviepy.editor as mpy
 from camera_input_live import camera_input_live
-
+import utils
 import cv2
 
 
